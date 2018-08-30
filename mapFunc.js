@@ -13,7 +13,7 @@ console.log(myMap(words, function(word) {
 }));
 
 function myMap(arr, cb){
-  newArr = [];
+  var newArr = [];
   arr.forEach(function(item){
     newArr.push(cb(item));
   })
